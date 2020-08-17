@@ -1,0 +1,30 @@
+/* Responsive Media Query StyleSheet */
+@media only screen and (max-width: 991px) {
+
+    .user,
+    .cart,
+    .bars {
+        display: none;
+    }
+
+    input {
+        margin-left: 0;
+    }
+
+    .input-group-text {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .navbar {
+        padding-bottom: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        background: #43425d;
+    }
+}

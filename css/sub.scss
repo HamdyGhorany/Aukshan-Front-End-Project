@@ -1,0 +1,155 @@
+body {
+  font-family: 'Overpass', sans-serif; }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #ef8216;
+  box-shadow: 0 1px 1px #ef8216 inset, 0 0 8px #ef8216;
+  outline: 0 none; }
+
+::selection {
+  background: #ef82164f;
+  color: #fff; }
+
+.navbar .navbar-brand img {
+  width: 150px; }
+.navbar .user {
+  padding-left: -30px; }
+.navbar input {
+  border-radius: 15px;
+  text-align: center;
+  background: #f3f3f3;
+  margin-left: 20px !important; }
+.navbar .input-group-text {
+  background: #ef8216;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-right: 40px; }
+.navbar .nav-linkd {
+  color: #fff;
+  text-decoration: none; }
+.navbar .bars {
+  width: 30px;
+  margin-left: 10px; }
+.navbar {
+  background: #43425d;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 30px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #fff;
+  border-bottom: 2px solid #ef8216 !important; }
+
+.slv {
+    text-align: center;
+}
+.slv h1 {
+    font-weight: bold;
+    padding-top: 30px;
+}
+.spec-user {
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+.spec-user img {
+    width: 40px;
+    height: 40px;
+    padding-right: 3px;
+    border-radius: 100%;
+}
+.spec-user .caption {
+    color: #fff;
+    font-size: 10px;
+}
+.cardB h3 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.cardB p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.cardB {
+    background: #43425d;
+    color: #fff;
+    margin-bottom: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.cardB a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    background: #2b2a38;
+}
+
+.footer {
+  background: #43425d;
+  background-image: url(../imgs/bg.png), url(../imgs/bg1.png), url(../imgs/bg2.png), url(../imgs/bg3.png), url(../imgs/bg4.png), url(../imgs/bg5.png), url(../imgs/bg6.png), url(../imgs/bg7.png);
+  background-size: 100% 100%; }
+
+.footer i {
+  font-size: 10px;
+  padding: 5px;
+  color: #fff;
+  text-align: center; }
+
+.social i {
+  font-size: 40px;
+  padding-top: 20px; }
+
+.foot {
+  padding-top: 40px; }
+
+.foot a {
+  color: #fff; }
+
+.dw-app {
+  padding-top: 40px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center; }
+
+.dw-app h1 {
+  font-weight: bold; }
+
+.auk {
+  color: #ef8216; }
+
+.dw-app i {
+  color: #ef8216;
+  font-size: 80px;
+  margin: auto; }
+
+.cr {
+  padding-top: 10px;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+
+/*# sourceMappingURL=win.css.map */
